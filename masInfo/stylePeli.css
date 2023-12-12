@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#contenido {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100wh;
+  color: #ffffff;
+  padding: 15px;
+  overflow: hidden;
+}
+
+#carta {
+  background-color: #fff0;
+}
+
+#poster {
+  box-shadow: 6px 5px 20px 3px rgba(0, 0, 0, 0.75);
+  transition: 1s;
+}
+#poster:hover {
+  transform: scale(1.05);
+}
+
+#lanzamiento {
+  padding: 5px;
+  margin-buttom: 10px;
+}
+
+#texto {
+  margin-top: 20px;
+}
+
+#personas {
+  height: 100px;
+  width: 80px;
+  box-shadow: 6px 5px 20px 3px rgba(0, 0, 0, 0.75);
+  transition: 1s;
+}
+
+#personas:hover {
+  transform: scale(1.05);
+}
+
+h4{
+    font-size: 12px !important;
+    color: white !important;
+}
+
+#cartas{
+    width: 15vh;
+    height: 20vh;
+    background-color: #0000;
+    border-color: #0000;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    animation: moverElemento 2s forwards;
+}
+
+#Director{
+    width: 15vh;
+    height: 20vh;
+    background-color: #0000;
+    border-color: #0000;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    animation: moverDirector 2s forwards;
+}
+
+  @keyframes moverElemento {
+    0% {
+      left: 400px; 
+    }
+    75%{
+      left: -20px;
+    }
+    100% {
+      left: 0px; 
+    } 
+  }
+
+  @keyframes moverDirector {
+    0% {
+      left: -400px; 
+    }
+    75%{
+      left: 20px;
+    }
+    100% {
+      left: 0px; 
+    } 
+  }
+
+ #reparto{
+  justify-content: space-around;
+ }
+
+ pre{
+  font-size: 15px !important;
+ }

@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+ #contenido {
+    width: 100wh;
+    background-color: #f0f0f0;
+    padding: 15px;
+    gap: 22px;
+}    
+
+ #pelicula{
+    background-color: white;
+ }
+#informacion {
+    height: 80%;
+}
+
+#imagen {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90%;
+    width: 95%;
+}
+
+#imagenIconos{
+    gap: 15px;
+}
+
+  
+#titulo{
+    height: 90%;
+    width: 100%;
+}
+  
+#guardar { 
+    height: 30px;
+    width: 30px;
+    background-image: url("../img/guardar.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+  
+#eliminar {
+    height: 30px;
+    width: 30px;
+    background-image: url("../img/eliminar.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s;
+}
+
+#eliminar:hover, #guardar:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+  
+#comentario {
+    height: 20%;
+}
+
+h1{
+    font-size: 28px;
+}
+
+h4{
+    font-size: 18px !important;
+}
+
+#masInfo{
+    height: 40px;
+}
+#generoDiv{
+    justify-content: space-between;
+    align-content: center;
+}

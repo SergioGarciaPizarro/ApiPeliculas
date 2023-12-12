@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 10px;
+  }
+  
+  body{
+    background-color: white;
+    gap: 20px;
+  }
+  
+  #listadoPeliculas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+  }
+  #nota{
+    color: #ffffff;
+  }
+  #informacion{
+   background-color: #f0f2f5;
+  }
+  #descripcion{
+    background-color: #ffffff;
+  }
+
+  #paginacion {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #paginacion a {
+    display: inline-block;
+    padding: 5px 10px;
+    margin:  5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: rgb(52,152,223);
+    color: white;
+  }
+  
+  #paginacion a.active {
+    background-color: white;
+    color: rgb(52,152,223);
+    border-color: rgb(52,152,223);
+  }
+  
+  #paginacion a:hover {
+    background-color: green;
+    color: white;
+    border-color: white;
+  }
+  
+  #elementos {
+    padding: 0;
+    margin: 0;
+  }
+  
+  #elementos li {
+    width: 100%;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  #inputNumPag{
+    background-color: lightgrey;
+    width: 55px;
+  }
+  #icono img{
+    width: 40px
+  }
+  #icono{
+    width:40px;
+    padding:0;
+    margin:0;
+    border-radius:5px;
+  }
+  #icono:hover{
+    cursor:pointer;
+    background-color: #f0f0f0;
+  }
